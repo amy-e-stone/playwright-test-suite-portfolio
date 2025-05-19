@@ -1,0 +1,14 @@
+{
+  "name": "playwright-test-suite-portfolio",
+  "version": "1.0.0",
+  "description": "End-to-end Playwright test suite showcasing automation skills using a full-stack web app",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.19"
+  }
+}
