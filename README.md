@@ -31,12 +31,7 @@ Tests are structured using the Page Object Model, making them easy to read, expa
    ```bash
    npx playwright install
    ```
-
-4. **(Optional) To launch tests in a visible browser window, use the '--headed' tag:**
-   ```bash
-   npx playwright test --headed
-   ```
-
+   
 ---
 
 ## Run tests and view reports:
@@ -50,6 +45,11 @@ Tests are structured using the Page Object Model, making them easy to read, expa
   ```bash
   npx playwright test tests/<the-test-file-name>.spec.ts
   ```
+
+- To launch tests in a visible browser window, use the '--headed' tag:
+   ```bash
+   npx playwright test --headed
+   ```
 
 - To view the last test report:
   ```bash
