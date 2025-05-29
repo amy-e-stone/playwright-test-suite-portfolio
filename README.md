@@ -1,6 +1,6 @@
 # Playwright Test Suite for Full-Stack Web App
 
-This project is an end-to-end test suite built with [Playwright](https://playwright.dev) and TypeScript to test an example full-stack web application. It automates user workflows such as registration, login, CRUD operations, and form validation all within a single, maintainable framework.
+This project is an end-to-end test suite built with [Playwright](https://playwright.dev) and TypeScript to test an example full-stack web application. It automates user workflows such as registration, login, CRUD operations, and form validation within a single, maintainable test framework.
 
 Tests are structured using the Page Object Model, making them easy to read, expand, and maintain. The suite includes cross-browser coverage (Chromium, Firefox, and WebKit) and mimics real user behavior for reliable functional testing.
 
@@ -27,14 +27,19 @@ Tests are structured using the Page Object Model, making them easy to read, expa
    npm install
    ```
 
-3. **(Optional) To launch tests in a visible browser window, use the '--headed' tag:**
+3. **Install Playwright browsers**
+   ```bash
+   npx playwright install
+   ```
+
+4. **(Optional) To launch tests in a visible browser window, use the '--headed' tag:**
    ```bash
    npx playwright test --headed
    ```
 
 ---
 
-## Other options to run tests:
+## Run tests and view reports:
 
 - To run all tests:
   ```bash
