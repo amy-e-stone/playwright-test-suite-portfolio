@@ -4,7 +4,7 @@ export class CampgroundPage {
     constructor(private page: Page) { }
 
     async navigateToNewForm() {
-        await this.page.goto('https://hidden-basin-58850.herokuapp.com/campgrounds/new');
+        await this.page.goto('https://yelpcamp-staging-a01e6cd6cda3.herokuapp.com/campgrounds/new');
     }
 
     async createCampground(title: string, location: string, price: string, description: string, imagePath: string) {

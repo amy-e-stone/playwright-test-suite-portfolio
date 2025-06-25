@@ -4,7 +4,7 @@ export class LoginPage {
   constructor(private page: Page) {}
 
   async navigate() {
-    await this.page.goto('https://hidden-basin-58850.herokuapp.com/');
+    await this.page.goto('https://yelpcamp-staging-a01e6cd6cda3.herokuapp.com/');
     await this.page.getByRole('link', { name: 'Login' }).click();
   }
 
